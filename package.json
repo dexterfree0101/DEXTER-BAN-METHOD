@@ -1,7 +1,7 @@
 {
-  "name": "dexter-whatsapp-bot",
-  "version": "3.0.0",
-  "description": "Complete WhatsApp Bot + Telegram Control System",
+  "name": "dexter-ultimate-bot",
+  "version": "11.0.0",
+  "description": "Dexter Ultimate Bot - WhatsApp + Telegram Complete Control",
   "main": "dexter.js",
   "scripts": {
     "start": "node dexter.js",
@@ -15,7 +15,6 @@
     "node-telegram-bot-api": "^0.64.0",
     "fs-extra": "^11.2.0",
     "moment": "^2.29.4",
-    "axios": "^1.6.0",
-    "pino": "^8.17.2"
+    "axios": "^1.6.0"
   }
-} 
+}
