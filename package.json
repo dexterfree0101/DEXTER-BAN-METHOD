@@ -1,0 +1,21 @@
+{
+  "name": "dexter-whatsapp-bot",
+  "version": "3.0.0",
+  "description": "Complete WhatsApp Bot + Telegram Control System",
+  "main": "dexter.js",
+  "scripts": {
+    "start": "node dexter.js",
+    "pm2-start": "pm2 start dexter.js --name dexter",
+    "pm2-stop": "pm2 stop dexter",
+    "pm2-logs": "pm2 logs dexter"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.16",
+    "qrcode-terminal": "^0.12.0",
+    "node-telegram-bot-api": "^0.64.0",
+    "fs-extra": "^11.2.0",
+    "moment": "^2.29.4",
+    "axios": "^1.6.0",
+    "pino": "^8.17.2"
+  }
+} 
